@@ -8,14 +8,11 @@ body{
 }
 nav{
   position: sticky;
-  /* background-color: green; */
   display: flex;
   justify-content: space-between;
-  /* border: 5px solid red; */
 }
 .navbar ul{
   list-style-type: none;
-  /* background-color: hsl(0, 0%, 25%); */
   padding: 0px;
   margin: 0px;
   overflow: hidden;
@@ -33,7 +30,6 @@ nav{
 
 }
 #navav{
-  /* background-color:hsl(0, 7%, 5%) ; */
   text-align: center;
   height: 70px;
 }
@@ -70,7 +66,6 @@ transition-duration: 1s ;
   height: 100px;
   display: inline-block;
   width: 200px;
-  /* background-color: aqua; */
   padding-top: 200px;
   margin-right: 200px;
   
@@ -109,15 +104,11 @@ h5{
   color: rgb(255, 255, 255);
   text-decoration: none;
   transition-duration: 0.5s;
-
-  /* border: 3px solid rgb(2, 2, 2); */
-  
 }
 #login a:hover{
   background-color: rgba(20, 117, 0, 0.781);
   font-size: 23px;
   margin-left: 40px;
-  /* color: silver; */
 }
 
 .contentup{
@@ -133,7 +124,6 @@ h5{
 }
 #info div a{
   color: silver;
-  /* background-color: black; */
   display: block;
   text-align: center;
   text-decoration: none;
@@ -152,7 +142,6 @@ h5{
 #linklist{
   list-style-type: none;
   margin-bottom: -27.5px;
-  /* font-size: 15px; */
 }
 #linklist .suggestedlinks{
   display: inline-block;
@@ -167,7 +156,6 @@ h5{
 #linklist a {
   box-shadow: inset 0 0 0 0 #a4d6543b;
   color: #a4d654;
-  /* color: rgba(212, 214, 84, 0.822); */
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 #linklist a:hover {
@@ -247,9 +235,6 @@ h5{
 .linko{
 display: inline-block;
 }
-
-/* Task:Mimic instagram logo */
-
 i{
   display: flex;
   text-align: center;
@@ -303,138 +288,9 @@ i{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-<style>
-.container {
-    background-color: green;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.link {
-    height: 70px;
-    width: 70px;
-    background-color: #caf7e3;
-    border-radius: 35px;
-    text-align: center;
-    margin: 7px;
-    line-height: 80px;
-}
-
-a i {
-    transition: all 0.3s linear;
-}
-
-a:hover i {
-    transform: scale(1.5);
-}
-
-.youtube:hover {
-    color: red;
-}
-
-.facebook:hover {
-    color: blue;
-}
-
-.instagram:hover {
-    color: #e11d74;
-}
-
-.X:hover {
-    color: #00adb5;
-}
-
-.github:hover {
-    color: black;
-}
-
-.linkedin:hover {
-    color: #04009a;
-}
-</style>
-</head>
-
-<body>
-<p>GFG social media link icons (Hover over the icon)</p>
-
-<div class="container">
-<a class="link linkedin">
-    <i class="fab fa-2x fa-linkedin"></i>
-</a>
-<a class="link X">
-    <i class="fab fa-2x fa-X"></i>
-</a>
-<a class="link github">
-    <i class="fab fa-2x fa-github"></i>
-</a>
-<a class="link instagram">
-    <i class="fab fa-2x fa-instagram"></i>
-</a>
-<a class="link youtube">
-    <i class="fab fa-2x fa-youtube"></i>
-</a>
-<a class="link facebook">
-    <i class="fab fa-2x fa-facebook-f"></i>
-</a>
-</div> */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* xs */
 @media (min-width: 500px) {
  #Logo{
-  /* margin-left: 60px; */
-  /* margin-top: 5px; */
   background-color: black;
  }
 h2{
@@ -450,7 +306,6 @@ p{
 }
 .nava a:hover{
   background-color: green;
-  /* font-size: 30px; */
   margin: 10px;
 }
 #todown{
@@ -471,8 +326,6 @@ h1{
   text-align: center;
 margin-left: auto;
 margin-right: auto;
-/* margin: bottom 50px; */
-/* margin-top: 100px; */
 height: auto;
 width: auto;
 }
@@ -511,7 +364,6 @@ text-align: center;
 /* sm */
 @media (min-width: 640px) {
 #Logo{
-  /* margin-left: 200px; */
   background-color: blueviolet;
 }
 .nava a:hover{
@@ -549,7 +401,6 @@ text-align: center;
 /* md */
 @media (min-width: 768px) {
   #Logo{
-    /* margin-left: 330px; */
     background-color: red;
   }
   .nava a:hover{
@@ -563,7 +414,6 @@ text-align: center;
   }
   #thrd{
     width: 400px;
-    /* margin-bottom: 0px; */
   }
   #woman{
     width: 500px;
@@ -589,8 +439,6 @@ text-align: center;
     margin: 25px;
   }
   .content{
-    /* columns: 2; */
-    /* margin-bottom: 100px; */
     width: 90%;
     margin-left: 50px;
     margin-right: 50px;
@@ -606,7 +454,6 @@ text-align: center;
     display: block;
   }
   #third{
-    
     height: auto;
     display: flex;
     flex-direction: row-reverse;
@@ -672,17 +519,13 @@ flex-direction: row;
 /* xl */
 @media (min-width: 1275px) {
   #Logo{
-    /* margin-left: 820px; */
 background-color: darkorange; 
   }
   .content{
-    /* columns: 2; */
-    /* margin-bottom: 100px; */
     width: auto;
     margin: 50px;
     
     height: auto;
-    border: 10px solid rgba(255, 255, 255, 0);
   }
   #scndgroup{
     width: 350px;
