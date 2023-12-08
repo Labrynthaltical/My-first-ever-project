@@ -1,0 +1,1295 @@
+body{
+    margin: 0px;
+    background-color : rgba(0, 0, 0, 0.897);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+}
+nav{
+    position: sticky;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 5px solid red; */
+  }
+  .navbar ul{
+    list-style-type: none;
+    /* background-color: hsl(0, 0%, 25%); */
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    position: sticky;
+    
+  }
+  .navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    transition-duration: 0.3s; 
+  
+  }
+  #navav{
+    /* background-color:hsl(0, 7%, 5%) ; */
+    text-align: center;
+    height: 70px;
+  }
+  #navav a{
+    text-align: center;
+  margin-top: 10px;
+  }
+  .navar{
+    text-align: center;
+  }
+   
+  .navbar li{
+    float: left;
+    overflow: auto;
+  }
+  #Logo{
+    height: 50px;
+    width: 50px;
+  margin-top: -16px;
+  margin-bottom: 55px;
+  transition-duration: 1s ;
+  }
+  
+#tolog{
+    width: 700px;
+    height: 300px;
+    background-color:rgba(89, 89, 89, 0.534);
+    border-radius: 20px;
+    margin-top: 5%;
+    /* margin-right: 20%; */
+    margin-left: 20%;
+ 
+}
+@keyframes logging{
+  from{box-shadow: 0px 0px 50px rgb(0, 23, 128);}
+  to {box-shadow: 0px 0px 100px rgb(1, 17, 90);}
+  }
+#tolog h4 {
+    /* text-align: center; */
+    /* margin-left: 25%; */
+}
+#tolog h5 {
+    /* text-align: center; */
+}
+form{
+  /* text-align: center; */
+}
+input{
+  /* display: inline-flex; */
+  /* transition: 0.3s; */
+  /* background-color: white; */
+  /* border: 10px solid white; */
+}
+#emailo{
+  /* margin-left: 5%; */
+  /* width: 10rem; */
+  /* height: 25px; */
+  /* display: block; */
+  /* opacity: 0.3; */
+  
+}
+#emailo:focus{
+  /* height: 50px; */
+  /* width: 20rem; */
+  /* opacity: 0.8; */
+
+}
+#Email{
+  /* text-align: right; */
+  /* overflow: hidden; */
+  /* background-color: black; */
+  /* display: flex; */
+  /* margin-left: 15rem; */
+
+}
+#icon1{
+  /* width: 50px; */
+  /* margin-right: -20px; */
+  /* text-align: center; */
+  /* font-size: 40px; */
+  /* line-height: 49px; */
+  /* margin-right: -1.4rem; */
+  /* background-color: rgba(0, 0, 0, 0.644); */
+}
+#icon2{
+  /* width: 50px; */
+  /* margin-right: -1.4rem; */
+  /* text-align: center; */
+  /* font-size: 40px; */
+  /* line-height: 49px; */
+  /* background-color:rgba(0, 0, 0, 0.644); */
+}
+#passwordo{
+  /* margin-left: 5%; */
+  width: 10rem;
+  /* height: 50px; */
+  /* display: block; */
+  /* opacity: 0.3; */
+  /* transition-duration: 0.3s; */
+}
+#passwordo:focus{
+  /* width: 20rem; */
+  /* opacity: 0.8; */
+}
+#Password{
+  /* text-align: right; */
+  /* overflow: hidden; */
+  /* background-color: black; */
+  /* display: flex; */
+  /* margin-left: 15rem; */
+}
+#loglog{
+  /* background-color: red; */
+  /* margin-top: 5%; */
+}
+#loglog input{
+  /* text-align: center; */
+}
+ input[type=submit]{
+ /* border: 5px solid green; */
+ /* text-align: center; */
+ /* border: none; */
+ /* text-decoration: none; */
+ /* font-size: 25px; */
+ /* width: 100px; */
+ /* height: 50px; */
+ /* margin-top: -50px; */
+ /* padding-left: 1rem; */
+/* transition-duration: 0.6s; */
+/* font-weight:500; */
+
+}
+ input[type=submit]:hover{
+/* box-shadow: inset 200px 0 0 0 green;  */
+/* border: none; */
+}
+
+#info{
+  background-color: rgba(0, 0, 0, 0.288);
+  height: auto;
+  margin: 0px;
+  margin-bottom: -20px;
+}
+#info div a{
+  color: silver;
+  /* background-color: black; */
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  
+}
+#contac{
+  display: inline-block;
+  text-align: center;
+  color: rgba(19, 155, 37, 0.493);
+  text-decoration: none;
+}
+#contac:hover{
+  color: red;
+}
+
+#linklist{
+  list-style-type: none;
+  margin-bottom: -27.5px;
+  /* font-size: 15px; */
+}
+#linklist .suggestedlinks{
+  display: inline-block;
+  margin: 20px ;
+  transition-duration: 0.5s;
+}
+#linklist a{
+  text-decoration:none;
+  color:rgb(255, 255, 255) ;
+
+}
+#linklist a {
+  box-shadow: inset 0 0 0 0 #a4d6543b;
+  color: #a4d654;
+  /* color: rgba(212, 214, 84, 0.822); */
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+#linklist a:hover {
+  box-shadow: inset 100px 0 0 0 #a4d654 ;
+  color: white;
+}
+#X{
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 15px;
+  line-height: 40px;
+  background-position-y: 100px;
+  text-align:center;
+  box-shadow: inset 0 100px 0 0 #140f0f;
+  border-radius: 50px;
+  transition:0.3s;
+
+}
+#X:hover{
+  transform:scaleX(1.1);
+  box-shadow: inset 0 00 0 0 #140f0f;
+  color: rgb(0, 0, 0);
+}
+
+#instagram{
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 15px;
+  line-height: 40px;
+  background-position-y: 100px;
+  text-align:center;
+  box-shadow: inset 0 100px 0 0 rgb(255, 0, 128);
+  border-radius: 50px;
+  transition:0.3s;
+}
+#instagram:hover{
+  transform:scaleX(1.1);
+  box-shadow: inset 0 00 0 0 rgb(255, 0, 128);
+  color: rgb(255, 0, 128);
+}
+
+#whatsapp{
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 15px;
+  line-height: 40px;
+  background-position-y: 100px;
+  text-align:center;
+  box-shadow: inset 0 100px 0 0 green;
+  border-radius: 50px;
+  transition:0.3s;
+}
+#whatsapp:hover{
+  transform:scaleX(1.1);
+  box-shadow: inset 0 00 0 0 green;
+  color: green;
+}
+#facebook{
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 30px;
+  line-height: 40px;
+  background-position-y: 100px;
+  text-align:center;
+  box-shadow: inset 0 100px 0 0 blue;
+  border-radius: 50px;
+  transition:0.3s;
+}
+#facebook:hover{
+  transform:scaleX(1.1);
+  box-shadow: inset 0 00 0 0 blue;
+  color: blue;
+}
+#socio{
+  list-style-type: none;
+}
+.linko{
+display: inline-block;
+}
+
+/* Task:Mimic instagram logo */
+
+i{
+  display: flex;
+  text-align: center;
+  width: 40px;
+}
+#youtube{
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 30px;
+  line-height: 40px;
+  background-position-y: 100px;
+  text-align:center;
+  box-shadow: inset 0 100px 0 0 red;
+  border-radius: 50px;
+  transition:0.3s;
+}
+#youtube:hover{
+  transform:scaleX(1.1);
+  box-shadow: inset 0 00 0 0 red;
+  color: red;
+}
+#mail{
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 30px;
+  line-height: 40px;
+  background-position-y: 100px;
+  text-align:center;
+  box-shadow: inset 0 100px 0 0 rgb(255, 255, 255);
+  border-radius: 50px;
+  transition:0.3s;
+}
+#mail:hover{
+  transform:scaleX(1.1);
+  box-shadow: inset 0 00 0 0 rgb(255, 255, 255);
+  color: #cccccc;
+}
+#social_links{
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  background-color:rgba(0, 0, 0, 0.288)
+}
+#social_links a{
+  margin-left: 30px;
+  margin-right: 10px;
+}
+#contactus{
+  background-color:rgba(0, 0, 0, 0.288);
+  height: 50px;
+  text-align: center;
+}
+h5{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* xs */
+@media (min-width: 500px) {
+    #Logo{
+     /* margin-left: 60px; */
+     /* margin-top: 5px; */
+     /* background-color: black; */
+   
+   }
+   p{
+     font-size:20px;
+   }
+   .nava a{
+     font-size: 17px;
+   }
+   .nava a:hover{
+     background-color: rgb(0, 55, 128);
+     /* font-size: 30px; */
+     margin: 10px;
+   }
+   #tolog{
+    width: 450px;
+    height: 400px;
+    margin: auto auto auto auto;
+    background-color: rgba(135, 135, 253, 0.342);
+    border: 1px solid rgba(103, 164, 255, 0.5);
+animation-name:logging;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;}
+#tolog h4 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+#tolog h5 {
+  text-align: center;
+}
+#tolog hr{
+  width: 50vh;
+}
+form{
+text-align: center;
+display: block;
+}
+input{
+display: inline-flex;
+transition: 0.3s;
+
+}
+#emailo{
+width: 15rem;
+height:30px;
+display: flex;
+border: 2px solid rgba(94, 110, 255, 0.582);
+border-radius: 5px;
+color: white;
+background-color: rgba(86, 96, 247, 0.199);
+}
+
+#emailo::placeholder{
+  color: rgba(132, 144, 255, 0.568);
+  padding-left: 70px;
+}
+#Email{
+display: flex;
+margin-left: 6.5rem;
+}
+
+#icon1{
+width: 20px;
+padding-top:7px ;
+margin-right: -25px;
+text-align: center;
+font-size: 20px;
+line-height: 20px;
+transition: 0.3s;
+}
+#Email:focus-within i{
+font-size: 0px;
+  transition: 0.2s;
+}
+#icon2{
+  width: 20px;
+  padding-top:7px ;
+  margin-right: -25px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  transition: 0.3s;
+  }
+#passwordo{
+  width: 15rem;
+  height:30px;
+  display: flex;
+  border: 2px solid rgba(94, 110, 255, 0.582);
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(86, 96, 247, 0.199);
+  }  
+#passwordo:focus{
+/* width: 20rem; */
+opacity: 0.8;
+}
+#passwordo::placeholder{
+  color: rgba(132, 144, 255, 0.568);
+  padding-left: 70px;
+  }
+#Password{
+text-align: right;
+/* overflow: hidden; */
+/* background-color: black; */
+display: flex;
+margin-left: 6.5rem;
+}
+#Password:focus-within i{
+  font-size: 0px;
+    transition: 0.2s;
+  }
+  #rememberme{
+    margin-top: 5%;
+    margin-right: 65%;
+    display: inline-block;
+font-size: 20px;
+  }
+  #forgotpassword{
+    text-align: right;
+    margin-top: -24px;
+    margin-right: 20px;
+  }
+  #forgotpassword a{
+    color: white;
+    font-size: 20px;
+
+  }
+#loglog{
+margin-top: 10%;
+border: none;
+}
+#loglog input{
+text-align: right;
+border: none;
+font-size: 20px;
+height: 30px;
+ background-color: rgba(122, 164, 255, 0.342);
+ ;
+}
+input[type=submit]{
+/* border: 5px solid green; */
+text-align: center;
+border: none;
+display: flex;
+text-decoration: none;
+font-size: 25px;
+width: 100px;
+height: 50px;
+margin-left: 45%;
+padding-left: 1rem;
+transition-duration: 0.6s;
+font-weight:500;
+
+}
+input[type=submit]:hover{
+box-shadow: inset 200px 0 0 0 rgb(138, 175, 255); 
+border: none;
+box-shadow: 0px 0px 40px rgba(66, 126, 255, 0.342);
+
+}
+
+   }
+   @media (min-width:606px){
+     #Logo{
+       /* background-color: brown; */
+     }
+     
+   
+   }
+   
+   /* sm */
+   @media (min-width: 640px) {
+   #Logo{
+     /* margin-left: 200px; */
+     background-color: blueviolet;
+   }
+   .nava a{
+     font-size: 20px;
+   }
+   .nava a:hover{
+     background-color: green;
+     font-size: 30px;
+     margin: 15px;
+   }
+    
+  #tolog{
+    width: 600px;
+    height: 400px;
+    margin: auto auto auto auto;
+    animation-name:logging;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+ #tolog h4 {
+  text-align: center;
+  margin-bottom: 3rem;
+ }
+ #tolog h5 {
+  text-align: center;
+ }
+ #tolog hr{
+  width: 100vh;
+ }
+ form{
+ text-align: center;
+ display: block;
+ }
+ input{
+ display: inline-flex;
+ transition: 0.3s;
+ 
+ }
+ #emailo{
+ width: 20rem;
+ height:30px;
+ display: flex;
+ border: 2px solid rgba(94, 110, 255, 0.582);
+ border-radius: 5px;
+ color: white;
+ background-color: rgba(86, 96, 247, 0.199);
+ }
+ 
+ #emailo::placeholder{
+ color: rgb(57, 76, 243);
+ padding-left: 70px;
+ }
+ #Email{
+ display: flex;
+ margin-left: 7.5rem;
+ }
+ 
+ #icon1{
+ width: 20px;
+ padding-top:7px ;
+ margin-right: -25px;
+ text-align: center;
+ font-size: 20px;
+ line-height: 20px;
+ transition: 0.3s;
+ }
+ #Email:focus-within i{
+ font-size: 0px;
+  transition: 0.2s;
+ }
+ #icon2{
+  width: 20px;
+  padding-top:7px ;
+  margin-right: -25px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  transition: 0.3s;
+  }
+ #passwordo{
+  width: 20rem;
+  height:30px;
+  display: flex;
+  border: 2px solid rgba(94, 110, 255, 0.582);
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(86, 96, 247, 0.199);
+  }  
+ #passwordo:focus{
+ /* width: 20rem; */
+ opacity: 0.8;
+ }
+ #passwordo::placeholder{
+  color: rgba(132, 144, 255, 0.568);
+  padding-left: 70px;
+  }
+ #Password{
+ text-align: right;
+ /* overflow: hidden; */
+ /* background-color: black; */
+ display: flex;
+ margin-left: 7.5rem;
+ }
+ #Password:focus-within i{
+  font-size: 0px;
+    transition: 0.2s;
+  }
+  #rememberme{
+    margin-top: 5%;
+    margin-right: 65%;
+    display: inline-block;
+ font-size: 20px;
+  }
+  #forgotpassword{
+    text-align: right;
+    margin-top: -24px;
+  }
+  #forgotpassword a{
+    color: white;
+    font-size: 20px;
+ 
+  }
+ #loglog{
+ margin-top: 30px;
+ border: none;
+ }
+ #loglog input{
+ text-align: right;
+ border: none;
+ font-size: 20px;
+ height: 30px;
+ background-color: rgba(122, 164, 255, 0.342);
+ }
+ input[type=submit]{
+ /* border: 5px solid green; */
+ text-align: center;
+ border: none;
+ display: flex;
+ text-decoration: none;
+ font-size: 25px;
+ width: 100px;
+ height: 50px;
+ margin-left: 45%;
+ padding-left: 1rem;
+ transition-duration: 0.6s;
+ font-weight:500;
+ }
+ input[type=submit]:hover{
+ box-shadow: inset 200px 0 0 0 rgb(138, 175, 255); 
+ border: none;
+ }
+   }
+   @media (min-width:703px){
+  
+   }
+   /* md */
+   @media (min-width: 768px) {
+     #Logo{
+       /* margin-left: 330px; */
+       background-color: red;
+     }
+     .nava a:hover{
+       background-color: green;
+       font-size: 30px;
+       margin: 20px;
+     }
+     #tolog{
+      width: 700px;
+      height: 400px;
+      margin: auto auto auto auto;
+      animation-name:logging;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+     }
+   #tolog h4 {
+    text-align: center;
+    margin-bottom: 3rem;
+   }
+   #tolog h5 {
+    text-align: center;
+   }
+   #tolog hr{
+    width: 100vh;
+   }
+   form{
+   text-align: center;
+   display: block;
+   }
+   input{
+   display: inline-flex;
+   transition: 0.3s;
+   
+   }
+   #emailo{
+   width: 20rem;
+   height:30px;
+   display: flex;
+   border: 2px solid rgba(94, 110, 255, 0.582);
+   border-radius: 5px;
+   color: white;
+   background-color: rgba(86, 96, 247, 0.199);
+   }
+   
+   #emailo::placeholder{
+    color: rgba(132, 144, 255, 0.568);
+   padding-left: 70px;
+   }
+   #Email{
+   display: flex;
+   margin-left: 12rem;
+   }
+   
+   #icon1{
+   width: 20px;
+   padding-top:7px ;
+   margin-right: -25px;
+   text-align: center;
+   font-size: 20px;
+   line-height: 20px;
+   transition: 0.3s;
+   }
+   #Email:focus-within i{
+   font-size: 0px;
+    transition: 0.2s;
+   }
+   #icon2{
+    width: 20px;
+    padding-top:7px ;
+    margin-right: -25px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    transition: 0.3s;
+    }
+   #passwordo{
+    width: 20rem;
+    height:30px;
+    display: flex;
+    border: 2px solid rgba(94, 110, 255, 0.582);
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(86, 96, 247, 0.199);
+    }  
+   #passwordo:focus{
+   /* width: 20rem; */
+   /* opacity: 0.8; */
+   }
+   #passwordo::placeholder{
+    color: rgba(132, 144, 255, 0.568);
+    padding-left: 70px;
+    }
+   #Password{
+   text-align: right;
+   /* overflow: hidden; */
+   /* background-color: black; */
+   display: flex;
+   margin-left: 12rem;
+   }
+   #Password:focus-within i{
+    font-size: 0px;
+      transition: 0.2s;
+    }
+    #rememberme{
+      margin-top: 5%;
+      margin-right: 65%;
+      display: inline-block;
+   font-size: 20px;
+    }
+    #forgotpassword{
+      text-align: right;
+      margin-top: -24px;
+    }
+    #forgotpassword a{
+      color: white;
+      font-size: 20px;
+   
+    }
+   #loglog{
+   margin-top: 30px;
+   border: none;
+   }
+   #loglog input{
+   text-align: right;
+   border: none;
+   font-size: 20px;
+   height: 30px;
+   background-color: rgba(122, 164, 255, 0.342);
+   }
+   input[type=submit]{
+   /* border: 5px solid green; */
+   text-align: center;
+   border: none;
+   display: flex;
+   text-decoration: none;
+   font-size: 25px;
+   width: 100px;
+   height: 50px;
+   margin-left: 45%;
+   padding-left: 1rem;
+   transition-duration: 0.6s;
+   font-weight:500;
+   }
+   input[type=submit]:hover{
+   box-shadow: inset 200px 0 0 0 rgb(138, 175, 255); 
+   border: none;
+   box-shadow: 0px 0px 40px rgba(66, 126, 255, 0.342);
+
+   }
+     }
+   
+   
+   
+   @media (min-width: 960px) {
+   }
+   
+   /* lg */
+   @media (min-width: 1019px) {
+     #Logo{
+       background-color: white;
+     }
+     .nava a:hover{
+       background-color: green;
+       font-size: 30px;
+       margin: 25px;
+     }
+     #tolog{
+      width: 900px;
+      height: 400px;
+      margin: auto auto auto auto;
+      animation-name:logging;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+     }
+   #tolog h4 {
+    text-align: center;
+    margin-bottom: 3rem;
+   }
+   #tolog h5 {
+    text-align: center;
+   }
+   #tolog hr{
+    width: 170vh;
+   }
+   form{
+   text-align: center;
+   display: block;
+   }
+   input{
+   display: inline-flex;
+   transition: 0.3s;
+   
+   }
+   #emailo{
+   width: 20rem;
+   height:30px;
+   display: flex;
+   border: 2px solid rgba(94, 110, 255, 0.582);
+   border-radius: 5px;
+   color: white;
+   background-color: rgba(86, 96, 247, 0.199);
+   }
+   
+   #emailo::placeholder{
+    color: rgba(132, 144, 255, 0.568);
+   padding-left: 70px;
+   }
+   #Email{
+   display: flex;
+   margin-left: 16rem;
+   }
+   
+   #icon1{
+   width: 20px;
+   padding-top:7px ;
+   margin-right: -25px;
+   text-align: center;
+   font-size: 20px;
+   line-height: 20px;
+   transition: 0.3s;
+   }
+   #Email:focus-within i{
+   font-size: 0px;
+    transition: 0.2s;
+   }
+   #icon2{
+    width: 20px;
+    padding-top:7px ;
+    margin-right: -25px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    transition: 0.3s;
+    }
+   #passwordo{
+    width: 20rem;
+    height:30px;
+    display: flex;
+    border: 2px solid rgba(94, 110, 255, 0.582);
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(86, 96, 247, 0.199);
+    }  
+   #passwordo:focus{
+   /* width: 20rem; */
+   /* opacity: 0.8; */
+   }
+   #passwordo::placeholder{
+    color: rgba(132, 144, 255, 0.568);
+    padding-left: 70px;
+    }
+   #Password{
+   text-align: right;
+   display: flex;
+   margin-left: 16rem;
+   }
+   #Password:focus-within i{
+    font-size: 0px;
+      transition: 0.2s;
+    }
+    #rememberme{
+      margin-top: 5%;
+      margin-right: 65%;
+      display: inline-block;
+   font-size: 20px;
+    }
+    #forgotpassword{
+      text-align: right;
+      margin-top: -24px;
+    }
+    #forgotpassword a{
+      color: white;
+      font-size: 20px;
+   
+    }
+   #loglog{
+   margin-top: 30px;
+   border: none;
+   }
+   #loglog input{
+   text-align: right;
+   border: none;
+   font-size: 20px;
+   height: 30px;
+   background-color: rgba(122, 164, 255, 0.342);
+   }
+   input[type=submit]{
+   /* border: 5px solid green; */
+   text-align: center;
+   border: none;
+   display: flex;
+   text-decoration: none;
+   font-size: 25px;
+   width: 100px;
+   margin-top: -10px;
+   height: 50px;
+   margin-left: 45%;
+   padding-left: 1rem;
+   transition-duration: 0.6s;
+   font-weight:500;
+   }
+   input[type=submit]:hover{
+   box-shadow: inset 200px 0 0 0 rgb(138, 175, 255); 
+   border: none;
+   box-shadow: 0px 0px 40px rgba(66, 126, 255, 0.342);
+
+   }
+   }
+   @media (min-width:1025px) {
+     
+   }
+    @media (min-width:1174px){
+    
+   }
+    
+   /* xl */
+   @media (min-width: 1275px) {
+     #Logo{
+       /* margin-left: 820px; */
+   background-color: darkorange; 
+     }
+     
+     #tolog{
+      width: 700px;
+      height: 400px;
+      margin: auto auto auto auto;
+      animation-name:logging;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+     }
+   #tolog h4 {
+    text-align: center;
+    margin-bottom: 3rem;
+   }
+   #tolog h5 {
+    text-align: center;
+   }
+   #tolog hr{
+    width: 100vh;
+   }
+   form{
+   text-align: center;
+   display: block;
+   }
+   input{
+   display: inline-flex;
+   transition: 0.3s;
+   
+   }
+   #emailo{
+   width: 20rem;
+   height:30px;
+   display: flex;
+   border: 2px solid rgba(94, 110, 255, 0.582);
+   border-radius: 5px;
+   color: white;
+   background-color: rgba(86, 96, 247, 0.199);
+   }
+   
+   #emailo::placeholder{
+    color: rgba(132, 144, 255, 0.568);
+   padding-left: 70px;
+   }
+   #Email{
+   display: flex;
+   margin-left: 12rem;
+   }
+   
+   #icon1{
+   width: 20px;
+   padding-top:7px ;
+   margin-right: -25px;
+   text-align: center;
+   font-size: 20px;
+   line-height: 20px;
+   transition: 0.3s;
+   }
+   #Email:focus-within i{
+   font-size: 0px;
+    transition: 0.2s;
+   }
+   #icon2{
+    width: 20px;
+    padding-top:7px ;
+    margin-right: -25px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    transition: 0.3s;
+    }
+   #passwordo{
+    width: 20rem;
+    height:30px;
+    display: flex;
+    border: 2px solid rgba(94, 110, 255, 0.582);
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(86, 96, 247, 0.199);
+    }  
+   #passwordo:focus{
+   /* width: 20rem; */
+   /* opacity: 0.8; */
+   }
+   #passwordo::placeholder{
+    color: rgba(132, 144, 255, 0.568);
+    padding-left: 70px;
+    }
+   #Password{
+   text-align: right;
+   /* overflow: hidden; */
+   /* background-color: black; */
+   display: flex;
+   margin-left: 12rem;
+   }
+   #Password:focus-within i{
+    font-size: 0px;
+      transition: 0.2s;
+    }
+    #rememberme{
+      margin-top: 5%;
+      margin-right: 65%;
+      display: inline-block;
+   font-size: 20px;
+    }
+    #forgotpassword{
+      text-align: right;
+      margin-top: -24px;
+    }
+    #forgotpassword a{
+      color: white;
+      font-size: 20px;
+   
+    }
+   #loglog{
+   margin-top: 30px;
+   border: none;
+   }
+   #loglog input{
+   text-align: right;
+   border: none;
+   font-size: 20px;
+   height: 30px;
+   background-color: rgba(122, 164, 255, 0.342);
+   }
+   input[type=submit]{
+   /* border: 5px solid green; */
+   text-align: center;
+   border: none;
+   display: flex;
+   text-decoration: none;
+   font-size: 25px;
+   width: 100px;
+   height: 50px;
+   margin-left: 45%;
+   padding-left: 1rem;
+   transition-duration: 0.6s;
+   font-weight:500;
+   }
+   input[type=submit]:hover{
+   box-shadow: inset 200px 0 0 0 rgb(138, 175, 255); 
+   border: none;
+   box-shadow: 0px 0px 40px rgba(66, 126, 255, 0.342);
+ 
+  }
+   }
+   
+   @media (min-width: 1275px) {
+   @media (min-width:1315px) {
+     
+   }
+   }
+   @media (min-width: 1360px) {}
+   
+   /* 2xl */
+   @media (min-width: 1536px){
+     
+#tolog h4 {
+  text-align: center;
+  /* margin-left: 25%; */
+}
+#tolog h5 {
+  text-align: center;
+}
+form{
+text-align: center;
+}
+input{
+display: inline-flex;
+transition: 0.3s;
+background-color: white;
+border: 10px solid white;
+}
+#emailo{
+margin-left: 5%;
+width: 10rem;
+height: 25px;
+display: block;
+opacity: 0.3;
+
+}
+#emailo:focus{
+/* height: 50px; */
+/* width: 20rem; */
+opacity: 0.8;
+
+}
+#Email{
+text-align: right;
+/* overflow: hidden; */
+/* background-color: black; */
+display: flex;
+margin-left: 15rem;
+
+}
+#icon1{
+width: 50px;
+margin-right: -20px;
+text-align: center;
+font-size: 40px;
+line-height: 49px;
+margin-right: -1.4rem;
+background-color: rgba(0, 0, 0, 0.644);
+}
+#icon2{
+width: 50px;
+margin-right: -1.4rem;
+text-align: center;
+font-size: 40px;
+line-height: 49px;
+background-color:rgba(0, 0, 0, 0.644);
+}
+#passwordo{
+margin-left: 5%;
+width: 10rem;
+/* height: 50px; */
+display: block;
+opacity: 0.3;
+transition-duration: 0.3s;
+}
+#passwordo:focus{
+/* width: 20rem; */
+opacity: 0.8;
+}
+#Password{
+text-align: right;
+/* overflow: hidden; */
+/* background-color: black; */
+display: flex;
+margin-left: 15rem;
+}
+#loglog{
+/* background-color: red; */
+margin-top: 5%;
+}
+#loglog input{
+text-align: center;
+}
+input[type=submit]{
+/* border: 5px solid green; */
+text-align: center;
+border: none;
+text-decoration: none;
+font-size: 25px;
+width: 100px;
+height: 50px;
+margin-top: -50px;
+padding-left: 1rem;
+transition-duration: 0.6s;
+font-weight:500;
+
+}
+input[type=submit]:hover{
+box-shadow: inset 200px 0 0 0 green; 
+border: none;
+
+}
+
+   }
+   
+ 
