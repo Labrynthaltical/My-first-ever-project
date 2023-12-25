@@ -1,0 +1,476 @@
+
+body{
+  overflow-x: hidden;
+  margin: 0px;
+  background-color : rgba(0, 0, 0, 0.897);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  position: relative;
+}
+body p ::spelling-error{
+  color: red;
+}
+nav{
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  position: sticky;
+  
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  transition-duration: 0.3s; 
+
+}
+#navav{
+  text-align: center;
+  height: 70px;
+}
+#navav a{
+  text-align: center;
+margin-top: 10px;
+}
+.navar{
+  text-align: center;
+}
+ 
+.navbar li{
+  float: left;
+  overflow: auto;
+}
+#Logo{
+  height: 50px;
+  width: 50px;
+margin-top: -16px;
+margin-bottom: 55px;
+transition-duration: 1s ;
+}
+#Logo:hover{
+}
+
+#start{
+  text-align: left;
+  background-color: rgb(0, 89, 255);
+  width: auto;
+  height: auto;
+}
+#leftlogo{
+  height: 100px;
+  display: inline-block;
+  width: 200px;
+  padding-top: 200px;
+  margin-right: 200px;
+  
+}
+
+h1 h3 h4{
+  font-weight: bold;
+}
+h4{
+  font-size: 40px;
+}
+h3{
+  font-size: 50px;
+}
+h2{
+  font-size: 80px;
+  padding-left: 55px;
+}
+h5{
+  text-align: center;
+}
+#first{
+  display: block;
+  margin-left: 50px;
+}
+
+#login {
+  width: auto;
+  height: 30px;
+  background-color: rgba(26, 22, 255, 0.493);
+  padding-top: 10px;
+  padding-left: 30px;
+  text-align: center;
+}
+#login a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition-duration: 0.5s;
+
+  
+}
+#login a:hover{
+  background-color: rgba(0, 47, 117, 0.781);
+  font-size: 23px;
+  margin-left: 40px;
+}
+
+.contentup{
+  margin-left: 100px;
+  margin-right:100px;
+}
+
+#info{
+  background-color: rgba(0, 0, 0, 0.288);
+  height: auto;
+  margin: 0px;
+  margin-bottom: -20px;
+}
+#info div a{
+  color: silver;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  
+}
+#filler{
+  margin-bottom:-60px;
+}
+
+#linklist{
+  list-style-type: none;
+  margin-bottom: -27.5px;
+}
+#linklist .suggestedlinks{
+  display: inline-block;
+  margin: 20px ;
+  transition-duration: 0.5s;
+}
+#linklist a{
+  text-decoration:none;
+  color:rgb(255, 255, 255) ;
+
+}
+#linklist a {
+  box-shadow: inset 0 0 0 0 #a4d6543b;
+  color: #54add6;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+#linklist a:hover {
+  box-shadow: inset 100px 0 0 0 #5477d6 ;
+  color: white;
+}
+#X{
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 15px;
+  line-height: 40px;
+  background-position-y: 100px;
+  text-align:center;
+  box-shadow: inset 0 100px 0 0 #140f0f;
+  border-radius: 50px;
+  transition:0.3s;
+
+}
+#X:hover{
+  transform:scaleX(1.1);
+  box-shadow: inset 0 00 0 0 #140f0f;
+  color: rgb(0, 0, 0);
+}
+
+#instagram{
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 15px;
+  line-height: 40px;
+  background-position-y: 100px;
+  text-align:center;
+  box-shadow: inset 0 100px 0 0 rgb(255, 0, 128);
+  border-radius: 50px;
+  transition:0.3s;
+}
+#instagram:hover{
+  transform:scaleX(1.1);
+  box-shadow: inset 0 00 0 0 rgb(255, 0, 128);
+  color: rgb(255, 0, 128);
+}
+
+#whatsapp{
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 15px;
+  line-height: 40px;
+  background-position-y: 100px;
+  text-align:center;
+  box-shadow: inset 0 100px 0 0 green;
+  border-radius: 50px;
+  transition:0.3s;
+}
+#whatsapp:hover{
+  transform:scaleX(1.1);
+  box-shadow: inset 0 00 0 0 green;
+  color: green;
+}
+#facebook{
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 30px;
+  line-height: 40px;
+  background-position-y: 100px;
+  text-align:center;
+  box-shadow: inset 0 100px 0 0 blue;
+  border-radius: 50px;
+  transition:0.3s;
+}
+#facebook:hover{
+  transform:scaleX(1.1);
+  box-shadow: inset 0 00 0 0 blue;
+  color: blue;
+}
+#socio{
+  list-style-type: none;
+}
+.linko{
+display: inline-block;
+}
+
+
+i{
+  width: 40px;
+}
+#youtube{
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 30px;
+  line-height: 40px;
+  background-position-y: 100px;
+  text-align:center;
+  box-shadow: inset 0 100px 0 0 red;
+  border-radius: 50px;
+  transition:0.3s;
+}
+#youtube:hover{
+  transform:scaleX(1.1);
+  box-shadow: inset 0 00 0 0 red;
+  color: red;
+}
+#mail{
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 30px;
+  line-height: 40px;
+  background-position-y: 100px;
+  text-align:center;
+  box-shadow: inset 0 100px 0 0 rgb(255, 255, 255);
+  border-radius: 50px;
+  transition:0.3s;
+}
+#mail:hover{
+  transform:scaleX(1.1);
+  box-shadow: inset 0 00 0 0 rgb(255, 255, 255);
+  color: #cccccc;
+}
+#social_links{
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  background-color:rgba(0, 0, 0, 0.288)
+}
+#social_links a{
+  margin-left: 30px;
+  margin-right: 10px;
+}
+#contactus{
+  background-color:rgba(0, 0, 0, 0.288);
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* xs */
+@media (min-width: 500px) {
+ #Logo{
+ }
+h2{
+  font-size: 50px;
+}
+h3{
+  font-size: 30px;
+  padding-left: 50px;
+}
+h4{
+  font-size: medium;
+}
+p{
+  font-size:20px;
+}
+.nava a{
+  font-size: 17px;
+}
+.nava a:hover{
+  background-color: rgba(59, 144, 255, 0.76);
+  margin: 10px;
+}
+#todown{
+  display: block;
+
+}
+#start{
+ box-sizing: border-box;
+ width: 100px;
+ height: 20px;   
+ display: inline;
+}
+.organize h1{
+  text-align: center;
+}
+.organize form{
+margin-left: auto;
+margin-right: auto;
+  height: 300px;
+  width: 450px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#Email{
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  width: 20rem;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #0a3d5b00;
+  border-bottom: 3px solid white !important;
+  border-radius: 3px;
+  border: none;
+}
+#Email::placeholder{
+  color: white;
+  display: flex;
+}
+#issue{
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  width: 20rem;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #0a3d5b00;
+  border-bottom: 3px solid white !important;
+  border-radius: 3px;
+  border: none;
+}
+#issue::placeholder{
+  color: white;
+  display: flex;
+}
+#sending{
+  background-color: rgb(102, 2, 141);
+  border-radius: 10px;
+  font-size: 25px;
+  color: rgb(177, 174, 174);
+  border: none;
+  margin-left: 10rem;
+}
+#sending:hover{
+  color: white;
+}
+}
+
+/* sm */
+@media (min-width: 640px) {
+#Logo{
+}
+.nava a{
+  font-size: 20px;
+}
+.nava a:hover{
+  background-color: rgba(59, 144, 255, 0.76);
+  font-size: 30px;
+  margin: 15px;
+}
+
+}
+@media (min-width:703px){
+
+}
+/* md */
+@media (min-width: 768px) {
+  #Logo{
+  }
+  .nava a:hover{
+    background-color: rgba(59, 144, 255, 0.76);
+    font-size: 30px;
+    margin: 20px;
+  }
+  .organize{
+    margin-top: 50px;
+  }
+  }
+@media (min-width: 960px) {
+}
+
+/* lg */
+@media (min-width: 1019px) {
+  #Logo{
+  }
+  .nava a:hover{
+    background-color: rgba(59, 144, 255, 0.76);
+    font-size: 30px;
+    margin: 25px;
+  }
+
+}
+@media (min-width:1025px) {
+  
+}
+ @media (min-width:1174px){
+ 
+}
+ 
+/* xl */
+@media (min-width: 1275px) {
+  #Logo{
+  }
+.organize img{
+  width: 400px;
+}
+
+}
+
+@media (min-width: 1275px) {
+@media (min-width:1315px) {
+  
+}
+}
+@media (min-width: 1360px) {}
+
+/* 2xl */
+@media (min-width: 1536px){}
+
+
+
