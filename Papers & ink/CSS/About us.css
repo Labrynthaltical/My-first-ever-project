@@ -310,8 +310,6 @@ i{
 /* xs */
 @media (min-width: 500px) {
  #Logo{
-
-  margin: 10px;
 }
 #todown{
   display: block;
